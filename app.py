@@ -1,8 +1,7 @@
 #Importing the libraries
 import pickle
 from flask import Flask, request, render_template, Markup
-import numpy as np
-import requests 
+import numpy as np 
 import pandas as pd 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
